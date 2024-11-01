@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Buscar"
+        android:id="@+id/toolbar_nota_buscar"
+        android:icon="@drawable/baseline_search_24"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView"/>
+
+    <item
+        android:title="Compartir"
+        android:id="@+id/toolbar_nota_compartir"/>
+
+    <item
+        android:title="Hacer privada"
+        android:id="@+id/toolbar_nota_privada"/>
+
+    <item
+        android:title="Añadir etiquetas"
+        android:id="@+id/toolbar_nota_etiquetas"/>
+    <item
+        android:title="Añadir recordatorio"
+        android:id="@+id/toolbar_nota_recordatorios"/>
+    <item
+        android:title="Anclar a inicio"
+        android:id="@+id/toolbar_nota_anclar"/>
+    <item
+        android:title="Eliminar"
+        android:id="@+id/toolbar_nota_eliminar"/>
+
+</menu>

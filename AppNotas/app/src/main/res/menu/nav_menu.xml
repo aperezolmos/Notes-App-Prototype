@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_todo"
+            android:icon="@drawable/baseline_mode_24"
+            android:title="Todo"/>
+        <item
+            android:id="@+id/nav_etiquetaDinero"
+            android:title="💶   Dinero" />
+
+        <item
+            android:id="@+id/nav_etiquetaSeries"
+            android:title="📺   Series"/>
+
+        <item
+            android:id="@+id/nav_etiquetas"
+            android:icon="@drawable/baseline_discount_24"
+            android:title="Etiquetas"/>
+
+        <item
+            android:id="@+id/nav_compartidas"
+            android:icon="@drawable/baseline_people_24"
+            android:title="Compartidas conmigo"/>
+
+        <item
+            android:id="@+id/nav_papelera"
+            android:icon="@drawable/baseline_delete_24"
+            android:title="Papelera"/>
+    </group>
+    <item
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/baseline_exit_to_app_24"
+                android:title="Cerrar sesión"/>
+        </menu>
+
+    </item>
+
+</menu>

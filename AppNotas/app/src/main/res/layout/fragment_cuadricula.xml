@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CuadriculaFragment"
+    android:id="@+id/notasCuadricula">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include layout="@layout/cuadricula_item"
+                android:id="@+id/cuadricula1"
+                android:layout_marginStart="16dp"
+                android:layout_width="185dp"
+                android:layout_height="124dp"
+                android:layout_marginTop="10dp"/>
+
+            <include layout="@layout/cuadricula_item"
+                android:id="@+id/cuadricula2"
+                android:layout_width="185dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="211dp"
+                android:layout_marginTop="10dp"/>
+
+            <include layout="@layout/cuadricula_item"
+                android:id="@+id/cuadricula3"
+                android:layout_width="185dp"
+                android:layout_height="198dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="143dp"/>
+
+            <include layout="@layout/cuadricula_item"
+                android:id="@+id/cuadricula4"
+                android:layout_width="185dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="211dp"
+                android:layout_marginTop="220dp"/>
+
+            <include layout="@layout/cuadricula_item"
+                android:id="@+id/cuadricula5"
+                android:layout_width="185dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="350dp"/>
+
+            <include layout="@layout/cuadricula_item"
+                android:id="@+id/cuadricula6"
+                android:layout_width="185dp"
+                android:layout_height="228dp"
+                android:layout_marginStart="211dp"
+                android:layout_marginTop="350dp"/>
+
+            <include layout="@layout/cuadricula_item"
+                android:id="@+id/cuadricula7"
+                android:layout_width="185dp"
+                android:layout_height="208dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="512dp"
+                android:layout_marginBottom="10dp"/>
+
+            <include layout="@layout/cuadricula_item"
+                android:id="@+id/cuadricula8"
+                android:layout_width="185dp"
+                android:layout_height="130dp"
+                android:layout_marginStart="211dp"
+                android:layout_marginTop="590dp"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</FrameLayout>

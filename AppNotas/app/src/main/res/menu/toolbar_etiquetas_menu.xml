@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Restaurar todos los elementos"
+        android:icon="@drawable/baseline_create_24"
+        android:iconTint="@color/white"
+        android:id="@+id/etiquetas_boton_editar"
+        app:showAsAction="always"/>
+</menu>

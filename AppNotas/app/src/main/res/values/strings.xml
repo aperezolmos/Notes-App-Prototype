@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">App Notas</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+
+    <!-- Aviso papelera -->
+    <string name="aviso_papelera">Las notas borradas se almacenarán aquí hasta un plazo de 30 días. Después, se eliminarán de forma permanente.</string>
+
+    <!-- Notas Lista (completas) -->
+    <string name="texto1">David 0,75\n\nPaula 1,3 comida</string>
+    <string name="texto2">Toalla\n\nGorro\n\nCrema\n\nGafas\n\nBañador\n\nChanclas\n\nCartas</string>
+    <string name="texto3">1! Insectos
+        \n- Libélula gigante (volando): agosto a octubre // de 17 a 19 (1)
+        \n- Escarabajo oro (isla): junio a agosto // de 23 a 8 (2)
+        \n- Escarabajo ciervo gigante (isla): julio y agosto // de 23 a 8 (2)
+        \n- Escarabajo ciervo arcoiris (isla): julio y agosto // de 17 a 8 (1)
+        \n- Ciempiés doméstico (bajo rocas [rompiéndolas]): agosto a octubre // de 19 a 8 (2)
+        \n- Escorpión (suelo): julio a septiembre // de 19 a 4 (1)
+        \n\n2! Peces
+        \n- Tortuga caparazón blando (ríos): agosto y septiembre // de 16 a 9 (2)
+        \n- Salmón (mares/ríos): septiembre // todo el día (5)
+        \n- Salmón real (mares/ríos): septiembre (1ª mitad) // todo el día (3)</string>
+    <string name="texto4">Martes 23 mayo 11:30</string>
+    <string name="texto5">INGREDIENTES:\n\t\t4 huevos\n\t\t1 cuchara de aceite\n\t\t200ml leche\n\t\t250gr azúcar\n\t\t500gr harina</string>
+    <string name="texto6">Assassination classroom
+        \nRe: Zero
+        \nZankyou no Terror
+        \nClannad
+        \nMoriarty the Patriot
+        \nChainsaw Man
+        \nVanitas no carte
+        \nTakt op destiny
+        \nYour lie in april
+        \nOwari no seraph
+        \nElfen Lied
+        \nErgo Proxy
+        \nShe and her cat: Everything flows
+        \nNana
+        \nFuture Diary
+        \n\nPelículas
+        \nKoe no Katachi
+        \nWolf children
+        \nEstudio Ghibli
+        \nCowboy Bebop: Knockin on Heavens Door
+        \nKimi no Suizo o Tabetai (I want to eat your pancreas)</string>
+    <string name="texto7">168€→alojamiento
+        \n19€→bus ida madrid
+        \n19€→discoteca viernes 25
+        \n10€ consumición
+        \n10€ freetour
+        \n7€ comida domingo
+        \n7,90€ comida sabado
+        \n11,10€ tren leiden ×2
+        \n3,5€ palitos merluza
+        \n5€ comida lunes
+        \n6€ tote
+        \n7€ lata
+        \n1,4€ yogures
+        \n9€ comida lunes</string>
+    <string name="texto8">Aceite\n\nLeche\n\nCafé\n\nPatatas\n\nPasta\n\nArroz</string>
+
+    <!-- Notas Cuadrícula (previews) -->
+    <string name="texto1_prev">David 0,75\nPaula 1,3 comida</string>
+    <string name="texto2_prev">Toalla\nGorro\nCrema\nGafas\nBañador\nChanclas\nCartas</string>
+    <string name="texto3_prev">1! Insectos
+        \n- Libélula gigante (volando): agosto a octubre // de 17 a 19 (1)
+        \n- Escarabajo oro…</string>
+    <string name="texto4_prev">Martes 23 mayo 11:30</string>
+    <string name="texto5_prev">INGREDIENTES:\n\t\t4 huevos\n\t\t1 cuchara de aceite\n\t\t200ml leche…</string>
+    <string name="texto6_prev">Assassination classroom
+        \nRe: Zero
+        \nZankyou no Terror
+        \nClannad
+        \nMoriarty the Patriot
+        \nChainsaw Man
+        \nVanitas no carte…</string>
+    <string name="texto7_prev">168€→alojamiento
+        \n19€→bus ida madrid
+        \n19€→discoteca viernes 25
+        \n10€ consumición
+        \n10€ freetour
+        \n7€ comida domingo…</string>
+    <string name="texto8_prev">Aceite\nLeche\nCafé…</string>
+
+
+    <string name="recetaTexto">INGREDIENTES:
+    \n\t4 huevos
+    \n\t1 cuchara de aceite
+    \n\t200ml leche
+    \n\t250gr azúcar
+    \n\t500gr harina</string>
+
+    <string name="loremIpsumCorto">Lorem ipsum dolor sit amet, consectetur…</string>
+    <string name="loremIpsumLargo"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lobortis dolor non est gravida rhoncus. Suspendisse imperdiet et odio eget lacinia. Pellentesque neque orci, imperdiet ut augue ut, posuere venenatis massa. Cras ut arcu lorem. Sed a maximus ante. Aenean id consectetur augue. Praesent commodo, ligula non aliquet interdum, sem risus fermentum nisi, vel lacinia augue odio sed arcu. Morbi id orci interdum, eleifend diam in, auctor justo. Suspendisse maximus pretium augue, eget pretium nisi pulvinar eu. Praesent mollis vehicula ligula vitae commodo. Duis vel dui hendrerit, gravida dui et, hendrerit libero. Phasellus sit amet accumsan mauris.</string>
+
+
+</resources>

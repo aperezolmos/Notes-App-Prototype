@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PapeleraVaciaFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="152dp"
+        android:layout_marginTop="180dp"
+        android:gravity="center"
+        android:src="@drawable/papelera_vacia" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" La papelera está vacía"
+        android:layout_marginTop="355dp"
+        android:gravity="center"
+        android:textSize="21dp"
+        android:textColor="@color/grisHoraNota"/>
+
+</FrameLayout>

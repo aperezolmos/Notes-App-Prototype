@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NotaActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar_nota"
+        android:background="@color/morado"
+        app:navigationIcon="@drawable/baseline_arrow_back_24"
+        app:title="Receta bizcocho"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/notaTiempo"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="75dp"
+        android:text="hace 2 días"
+        android:textSize="12sp"
+
+        android:textStyle="italic"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/notaTitulo"
+        android:layout_marginTop="100dp"
+        android:text="Receta bizcocho"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/negroTexto"
+        android:layout_marginHorizontal="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/notaTexto"
+        android:layout_marginTop="145dp"
+        android:text="@string/recetaTexto"
+        android:textSize="16sp"
+        android:textColor="@color/negroTexto"
+        android:layout_marginHorizontal="20dp"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigationView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@color/white"
+            app:labelVisibilityMode="labeled"
+            app:menu="@menu/bottom_menu_nota" />
+
+    </FrameLayout>
+</RelativeLayout>

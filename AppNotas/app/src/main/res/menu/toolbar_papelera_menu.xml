@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Restaurar todos los elementos"
+        android:icon="@drawable/baseline_restore_from_trash_24"
+        android:id="@+id/papelera_restaurar"
+        app:showAsAction="always"/>
+
+    <item
+        android:title="Vaciar papelera"
+        android:id="@+id/papelera_vaciar"/>
+
+</menu>

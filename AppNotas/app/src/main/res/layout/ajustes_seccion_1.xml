@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ajustes_seccion"
+    android:layout_margin="16dp"
+    android:paddingBottom="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="16dp"
+            android:text="Sincronizar con la nube"
+            android:textColor="@color/negroTexto"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="26dp"
+            android:text="emailusuario@gmail.com"
+            android:textColor="@color/grisAlertDialog"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:layout_marginStart="16dp"
+            android:text="Sincronizar notas compartidas:"
+            android:textColor="@color/negroTexto"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="26dp"
+            android:text="Solo con Wifi"
+            android:textColor="@color/grisAlertDialog"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:layout_marginStart="16dp"
+            android:text="Copia de seguridad local"
+            android:textColor="@color/negroTexto"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="26dp"
+            android:text="Realizar copia de seguridad en:\n/storage/emulated/0/Notiz/backup"
+            android:textColor="@color/grisAlertDialog"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:layout_marginStart="16dp"
+            android:text="Importar notas"
+            android:textColor="@color/negroTexto"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="68dp"
+        android:layout_height="80dp"
+        android:src="@drawable/nube_internet"
+        android:contentDescription="Nube internet"
+        android:layout_marginTop="190dp"
+        android:layout_marginStart="290dp"/>
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switch_ajustes_1"
+        android:layout_width="50dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="305dp"
+        android:layout_marginTop="23dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.AppNotas" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/morado</item>
+        <item name="colorPrimaryVariant">@color/morado</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/morado</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- Usado solo para el bottom navigation¿? Borrar si eso. -->
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_in</item>
+        <item name="android:windowExitAnimation">@anim/slide_out</item>
+    </style>
+
+    <!-- Colores de los botones en los alert dialogs -->
+    <style name="MyAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/morado</item>
+        <item name="android:buttonBarNegativeButtonStyle">@style/MyAlertDialogButtonStyle.Negative</item>
+        <item name="android:buttonBarPositiveButtonStyle">@style/MyAlertDialogButtonStyle.Positive</item>
+    </style>
+
+    <style name="MyAlertDialogButtonStyle.Negative" parent="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/grisAlertDialog</item>
+    </style>
+
+    <style name="MyAlertDialogButtonStyle.Positive" parent="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/morado</item>
+    </style>
+
+</resources>

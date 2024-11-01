@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout_etiquetas"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start"
+    tools:context=".EtiquetasActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/toolbar_etiquetas"
+                android:background="@color/morado"
+                app:navigationIcon="@drawable/baseline_menu_24"
+                app:title="Etiquetas"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <TextView
+                android:padding="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:text="💶   Dinero"
+                android:textColor="@color/negroTexto"
+                android:textSize="20sp" />
+            <TextView
+                android:padding="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="📺   Series"
+                android:textColor="@color/negroTexto"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/etiquetas_boton_agregar"
+                android:paddingHorizontal="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="410dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/boton_etiqueta"
+                android:drawableLeft="@drawable/baseline_add_24"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:text=" Añadir etiqueta" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <!-- Capa negra entre menú izquierdo y contenido. -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/nav_view_etiquetas"
+        android:layout_gravity="start"
+        app:menu="@menu/nav_menu"
+        app:headerLayout="@layout/nav_header">
+
+    </com.google.android.material.navigation.NavigationView>
+
+</androidx.drawerlayout.widget.DrawerLayout>

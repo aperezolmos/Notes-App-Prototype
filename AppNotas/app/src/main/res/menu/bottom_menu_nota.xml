@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottom_menu_escribir"
+        android:title="Escribir"
+        android:icon="@drawable/baseline_create_24" />
+
+    <item
+        android:id="@+id/bottom_menu_dibujar"
+        android:title="Dibujar"
+        android:icon="@drawable/baseline_palette_24"/>
+
+    <item
+        android:id="@+id/bottom_menu_imagen"
+        android:title="Imagen"
+        android:icon="@drawable/baseline_image_24"/>
+
+    <item
+        android:id="@+id/bottom_menu_lista"
+        android:title="Lista"
+        android:icon="@drawable/baseline_format_list_bulleted_24"/>
+
+</menu>
